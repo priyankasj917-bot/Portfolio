@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Priyanka S - Problem Solver, Software Developer, Aspiring Software Engineer, AI Enthusiast, Linux Explorer and Full Stack Developer." />
+  <meta name="keywords" content="Priyanka S, Software Developer, Portfolio, AI Enthusiast, Full Stack Developer, Linux, Python, Java" />
+  <meta name="author" content="Priyanka S" />
+  <title>Priyanka S | Software Developer Portfolio</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <div class="loader" id="loader">
+    <div class="loader-card">
+      <span class="loader-name">Priyanka S</span>
+      <div class="loader-line"></div>
+      <p>Building portfolio experience...</p>
+    </div>
+  </div>
+
+  <header class="navbar" id="navbar">
+    <a href="#home" class="logo">Priyanka S</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-bg-shapes">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Priyanka S</h1>
+        <h2><span id="typingText"></span><span class="typing-cursor">|</span></h2>
+        <p class="hero-tagline">Turning curiosity into code and ideas into useful digital experiences.</p>
+        <p class="hero-intro">I am a B.Tech Information Technology student who enjoys solving problems, building meaningful applications, exploring AI, and learning technologies that create real-world impact.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="Priyanka_Resume.pdf" download id="resumeBtn">Download Resume</a>
+          <a class="btn secondary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="#contact">Contact Me</a>
+          <a class="btn secondary" href="Priyanka_Resume.pdf" target="_blank" rel="noopener">View Resume</a>
+        </div>
+        <div class="social-row">
+          <a href="mailto:priyankasj917@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/priyanka-s-9864743a8/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/priyankasj917-bot" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap reveal delay-1">
+        <div class="photo-orbit"></div>
+        <div class="photo-card">
+          <img src="profile.jpg" alt="Priyanka S profile photo" />
+        </div>
+        <div class="floating-badge badge-one">AI Learner</div>
+        <div class="floating-badge badge-two">Problem Solver</div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="section-heading reveal">
+        <p>About Me</p>
+        <h2>Driven by learning, creativity, and technology.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="glass-card reveal">
+          <h3>Who I Am</h3>
+          <p>I am Priyanka S, a pre-final year B.Tech Information Technology student from M Kumarasamy College of Engineering, Karur. I enjoy creating software solutions that are simple, useful, and meaningful.</p>
+          <p>My interests include software development, artificial intelligence, full stack development, Linux, cloud technologies, and database management. I believe every project is a chance to learn, improve, and solve a real problem.</p>
+        </div>
+        <div class="about-stats reveal delay-1">
+          <div><strong>2028</strong><span>Graduation</span></div>
+          <div><strong>8.2</strong><span>CGPA</span></div>
+          <div><strong>7+</strong><span>Projects</span></div>
+          <div><strong>30</strong><span>Days Internship</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education section">
+      <div class="section-heading reveal">
+        <p>Education</p>
+        <h2>Academic Journey</h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <span class="timeline-dot"></span>
+          <div class="glass-card">
+            <h3>B.Tech Information Technology</h3>
+            <p>M Kumarasamy College of Engineering, Karur</p>
+            <p>Year of Study: III / Pre-final Year</p>
+            <p>Expected Graduation: 2028 | CGPA: 8.2</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="section-heading reveal">
+        <p>Skills</p>
+        <h2>Technologies I work with</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal"><h3>Programming</h3><p>Python, Java, HTML, CSS, SQL</p></div>
+        <div class="skill-card reveal delay-1"><h3>Web Development</h3><p>Frontend structure, styling, responsive pages, basic full-stack concepts</p></div>
+        <div class="skill-card reveal delay-2"><h3>Database</h3><p>phpMyAdmin, MySQL, database management basics</p></div>
+        <div class="skill-card reveal"><h3>Tools</h3><p>Eclipse, AWS, VS Code, Git, GitHub, XAMPP, Snapcraft, Cloudflare, Ubuntu Terminal</p></div>
+        <div class="skill-card reveal delay-1"><h3>Operating Systems</h3><p>Windows, Ubuntu Linux</p></div>
+        <div class="skill-card reveal delay-2"><h3>Cloud / AI / Other</h3><p>Artificial Intelligence, AWS Cloud, Software Development, Problem Solving</p></div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="section-heading reveal">
+        <p>Projects</p>
+        <h2>Selected Work</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal"><div class="project-icon">🧩</div><h3>Sudoku Solver</h3><p>An interactive Sudoku Solver that helps users solve puzzles quickly with a clean interface and logical problem-solving flow.</p><div class="tech">Python • HTML • CSS</div></article>
+        <article class="project-card reveal delay-1"><div class="project-icon">❤️</div><h3>Good Health</h3><p>A health-focused web application designed to present useful health information in a simple, organized, and user-friendly way.</p><div class="tech">Python • HTML • CSS</div></article>
+        <article class="project-card reveal delay-2"><div class="project-icon">🩸</div><h3>Blood Bank Management System</h3><p>A system for managing donor records, blood availability, and recipient requests with improved organization and tracking.</p><div class="tech">Java • HTML • CSS • JS • MySQL</div></article>
+        <article class="project-card reveal"><div class="project-icon">🌾</div><h3>Predictive Agricultural Management System</h3><p>A web-based platform that supports agricultural decisions through crop recommendations, fertilizer guidance, equipment details, and scheme information.</p><div class="tech">Python • MySQL • HTML • CSS</div></article>
+        <article class="project-card reveal delay-1"><div class="project-icon">📄</div><h3>QuickConvert PDF</h3><p>A PDF utility application concept focused on common document tasks such as merging, splitting, compressing, and converting files.</p><div class="tech">Python • Ubuntu • Snapcraft</div></article>
+        <article class="project-card reveal delay-2"><div class="project-icon">💕</div><h3>Dating App</h3><p>A modern app interface with profile cards, like-based interaction, and responsive UI design for a social matching experience.</p><div class="tech">HTML • CSS • JavaScript</div></article>
+        <article class="project-card reveal"><div class="project-icon">🌐</div><h3>Personal Portfolio Website</h3><p>A responsive personal portfolio created to showcase skills, education, experience, and projects with modern animations.</p><div class="tech">HTML • CSS • JavaScript</div></article>
+      </div>
+    </section>
+
+    <section class="experience section" id="experience">
+      <div class="section-heading reveal">
+        <p>Experience</p>
+        <h2>Internship</h2>
+      </div>
+      <div class="experience-card glass-card reveal">
+        <span class="role-badge">30 Days</span>
+        <h3>Software Developer Intern</h3>
+        <p class="company">SkyneTBee Artificial Intelligence Enterprise Pvt Ltd</p>
+        <p>Worked on software development tasks, application-building concepts, and practical implementation of programming skills in a professional environment.</p>
+      </div>
+    </section>
+
+    <section class="resume section" id="resume">
+      <div class="section-heading reveal">
+        <p>Resume</p>
+        <h2>My professional profile at a glance</h2>
+      </div>
+      <div class="resume-grid">
+        <div class="glass-card reveal">
+          <h3>Career Objective</h3>
+          <p>Detail-oriented and enthusiastic Information Technology student seeking an entry-level opportunity to apply programming, problem-solving, and analytical skills while contributing to innovative software solutions and continuously enhancing technical expertise.</p>
+          <div class="hero-actions resume-actions">
+            <a class="btn primary" href="Priyanka_Resume.pdf" download>Download Resume</a>
+            <a class="btn secondary" href="Priyanka_Resume.pdf" target="_blank" rel="noopener">View Resume</a>
+          </div>
+        </div>
+        <div class="glass-card reveal delay-1">
+          <h3>Resume Highlights</h3>
+          <ul class="clean-list">
+            <li>B.Tech Information Technology student</li>
+            <li>Technical Skills: Java, Python, C, HTML, CSS, SQL</li>
+            <li>Areas of Interest: Operating Systems, Database Management Systems</li>
+            <li>Languages Known: English, Tamil</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="certifications section">
+      <div class="section-heading reveal">
+        <p>Certifications & Activities</p>
+        <h2>Learning beyond academics</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal"><h3>NPTEL Certification</h3><p>Introduction to Internet of Things — IIT Roorkee</p></div>
+        <div class="skill-card reveal delay-1"><h3>Hackathon Participation</h3><p>Participated in a hackathon conducted by Kongu Institute of Technology.</p></div>
+        <div class="skill-card reveal delay-2"><h3>Soft Skills</h3><p>Team Collaboration, Effective Communication, Time Management, Adaptability</p></div>
+      </div>
+    </section>
+
+    <section class="learning section">
+      <div class="section-heading reveal">
+        <p>Learning</p>
+        <h2>Current Focus Areas</h2>
+      </div>
+      <div class="learning-tags reveal">
+        <span>Artificial Intelligence</span><span>AWS Cloud</span><span>Linux</span><span>Full Stack Development</span><span>Database Management</span><span>Problem Solving</span>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="section-heading reveal">
+        <p>Contact</p>
+        <h2>Let's connect</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="glass-card reveal">
+          <h3>Get in touch</h3>
+          <p>Email: <a href="mailto:priyankasj917@gmail.com">priyankasj917@gmail.com</a></p>
+          <p>Location: Namakkal, Tamil Nadu, India</p>
+          <p>LinkedIn: <a href="https://www.linkedin.com/in/priyanka-s-9864743a8/" target="_blank" rel="noopener">Priyanka S</a></p>
+          <p>GitHub: <a href="https://github.com/priyankasj917-bot" target="_blank" rel="noopener">priyankasj917-bot</a></p>
+        </div>
+        <form class="contact-form reveal delay-1" action="mailto:priyankasj917@gmail.com" method="post" enctype="text/plain">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Priyanka S. Built with curiosity, creativity, and code.</p>
+    <button id="backToTop" aria-label="Back to top">↑</button>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
